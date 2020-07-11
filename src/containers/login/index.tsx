@@ -66,7 +66,7 @@ export default class Login extends React.Component<Props> {
                     minLength={3}
                     maxLength={20}
                     className={'uppercase'}
-                    placeholder='ex: jr_acn@yahoo.com.br'
+                    placeholder='exemplo@email.com'
                     value={email}
                     type='email'
                     icon='user'
@@ -81,7 +81,7 @@ export default class Login extends React.Component<Props> {
                     type='password'
                     name='password'
                     value={password}
-                    placeholder='EX: 123'
+                    placeholder='123456'
                     onChange={handleForm}
                     icon='lock'
                     iconPosition={'left'}
